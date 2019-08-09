@@ -1,0 +1,176 @@
+body,html{
+    background: #d81d1d
+}
+/* 
+
+*/
+.top{
+    width: 100%;
+    height: 8.31rem;
+    background-image: url(../img/BJ.png);
+    background-size: cover;
+    overflow: hidden
+}
+.top-box{
+    width: 6.96rem;
+    /* height: 4.9rem; */
+    background: #fff;
+     box-sizing: content-box;
+     border:.08rem solid #FAACA6;
+     border-radius: .2rem;
+     margin: 3rem auto 0
+}
+.top-goods{
+    width: 6.3rem;
+    margin:.34rem 0 .12rem .24rem;
+    display: flex;
+    align-items: center
+}
+.good-img{
+    width: 1.8rem;
+    height: 1.8rem;
+    border: .07rem;
+    margin-right: .3rem;
+    border-radius: .07rem
+}
+.goods-cont{
+    width: 4.38rem;
+    
+}
+.goods-name{
+    width: 100%;
+    font-size: .38rem;
+    color: #3E3E4D;
+      overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: bold;
+    margin-bottom: .1rem
+}
+.goods-info{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.goods-per{
+    font-size: .21rem;
+    color: #3E3E4D;
+}
+.per-num{
+    color: #FC2C54
+}
+.goods-pri{
+    font-size: .24rem;
+    color: #FC2C54;
+}
+.pri-num{
+  font-size: .32rem
+}
+.top-zlper{
+    width: 6.8rem;
+    height: .95rem;
+    margin: 0.1rem auto .45rem;
+}
+.top-zlper img{
+    width: 6.8rem;
+    height: .95rem;
+}
+.top-btn{
+    width: 6.24rem;
+    height: .8rem;
+    margin: 0 auto .4rem;
+}
+.btn-zl,.btn-to,.btn-lq{
+    background: #FC2C54
+}
+.btn-wc{
+  background: #909090
+}
+
+.detail{
+    width: 7.13rem;
+    background: #fff;
+    border-radius: .28rem;
+    padding:.22rem .16rem .34rem;
+    margin: 0 auto .6rem
+}
+.detailbg{
+    background: #B3B3B3;
+    width: 100%;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+   position: fixed;
+   top:0;
+   left: 0;
+   background: rgba(0, 0, 0, .6);
+   display: none
+}
+.mask-box{
+    width: 5.66rem;
+    background: #fff;
+    margin: 50% auto 0;
+    padding:.7rem .32rem .36rem;
+    border-radius: .2rem
+}
+.mask-tit{
+    font-size: .36rem;
+    color: #3E3E4D;
+    text-align: center;
+    margin-bottom: .3rem
+}
+.m-name{
+    width: 100%;
+    border-bottom: .01rem solid #D8D8D8;
+    padding: .2rem 0;
+    margin-bottom: .3rem
+}
+.in-name{
+    font-size: .32rem;
+    color: #3E3E4D;
+    border:0;
+    outline: none
+}
+.in-name::-webkit-input-placeholder {
+    color: #D8D8D8; 
+    font-size: .28rem
+}
+
+.in-name::-moz-placeholder {
+    color: #D8D8D8;
+    font-size: .28rem
+}
+
+.in-name:-ms-input-placeholder {
+    color: #D8D8D8;
+    font-size: .28rem
+} 
+.in-code{
+    width: 2rem
+}
+.getcode{
+  font-size: .28rem;
+  color: #FC2C54
+}
+.nocode{
+    color: #3E3E4D
+}
+.btn-to{
+    height: .65rem;
+    font-size: .26rem
+}
+.nohelp{
+    font-size: .24rem;
+    color: #3E3E4D;
+    text-align: center;
+    margin-top: .3rem
+}
+.zl-wc{
+    font-size: .36rem;
+    color: #3E3E4D;
+    text-align: center;
+    line-height: 1rem;
+}

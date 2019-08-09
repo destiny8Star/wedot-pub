@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <title>微点零售</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="top-box">
+            <div class="top-goods">
+                <img src="img/DP.png" alt="" class="good-img">
+                <div class="goods-cont">
+                    <div class="goods-name">名称</div>
+                    <div class="goods-info">
+                         <div class="goods-per">已有<span class="per-num">0</span>位成功领取</div>
+                        <div class="goods-pri">原价:<span class="pri-num">￥0.00</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-zlper"></div>
+            <div class="top-btn">
+                <!-- <button class="weui-btn btn-zl">我要给他助力</button> -->
+                <!-- <button class="weui-btn btn-wc">已完成助力</button> -->
+                <!-- <button class="weui-btn btn-lq">我也要0元领取</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- //商品详情 -->
+    <div class="detail">
+        <div class="detailbg"></div>
+    </div>
+    <!-- //mask -->
+    <div class="mask">
+        <div class="mask-box">
+            <h3 class="mask-tit">输入手机号即可助力成功</h3>
+            <div class="m-name"><input type="number" class="in-name" placeholder="请输入手机号"></div>
+            <div class="m-name flex_bet"><input type="text" class="in-name in-code" placeholder="请输入验证码"><span class="getcode">获取验证码</span></div>
+            <button class="weui-btn btn-to">帮忙助力</button>
+            <div class="nohelp">不想给他助力</div>
+        </div>
+    </div>
+</body>
+<script>
+    let t = new Date().getTime()
+    document.write('<script src="js/libs/require.js" data-main="js/index.js?t=' + t + '"><\/script>')
+</script>
+</html>
